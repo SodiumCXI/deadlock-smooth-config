@@ -5,7 +5,7 @@
 ## Установка
 
 1. Закройте игру.
-2. Скачайте `gameinfo.gi` из [релиза](../../releases/latest) и замените им `Steam\steamapps\common\Deadlock\game\citadel\gameinfo.gi`.
+2. Скачайте `gameinfo.gi` из **[релиза](../../releases/latest)** и замените им `Steam\steamapps\common\Deadlock\game\citadel\gameinfo.gi`.
 
 ## Важно
 
