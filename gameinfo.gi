@@ -768,8 +768,6 @@
 		"animgraph_slope_enable"				"0"
 		"phys_cull_internal_mesh_contacts"		"true"
 		"r_hair_shadowtile"						"0"
-		"snd_occlusion_bounces"		"0"
-		"snd_occlusion_rays"		"0"
 		"citadel_boss_glow_disabled"		"1"
 		"citadel_trooper_glow_disabled"		"1"
 		"r_morphing_enabled"		"0"
