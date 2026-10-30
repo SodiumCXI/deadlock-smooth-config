@@ -457,8 +457,8 @@
 		TransformTextureRowCountToolsMode 6144
 		SunLightMaxCascadeSize		4
 		SunLightShadowRenderMode	Depth
-		NonTexturedGradientFog		1
-		CubemapFog 1
+		NonTexturedGradientFog		0
+		CubemapFog 0
 		VolumetricFog 1
 		FrameBufferCopyFormat R11G11B10F
 		Tonemapping 0
@@ -693,17 +693,17 @@
 		"lb_csm_draw_translucent"				"0"
 		"r_hair_ao"								"0"
 		"enable_boneflex"						"0"
-		"r_character_decal_resolution"			"256"
+		"r_character_decal_resolution"		"64"
 		"lb_ssss_samples"						"1"
 		"cloth_sim_on_tick"						"0"
-		"props_break_max_pieces_perframe"		"4"
+		"props_break_max_pieces_perframe"		"0"
 		"r_citadel_gpu_culling_shadows"			"1"
 		"cl_retire_low_priority_lights"			"1"
 		"lb_barnlight_shadowmap_scale"			"0.5"
 		"lb_dynamic_shadow_resolution_base"		"512"
 		"r_physics_particle_op_spawn_scale"		"0"
 		"cl_ragdoll_limit"						"2"
-		"r_decals"								"128"
+		"r_decals"		"16"
 		"cl_show_splashes"						"0"
 		"violence_agibs"						"0"
 		"violence_hgibs"						"0"
@@ -728,7 +728,7 @@
 		"r_post_bloom"							"0"
 		"r_effects_bloom"						"0"
 		"r_ssao"								"0"
-		"sc_instanced_mesh_lod_bias"			"1.0"
+		"sc_instanced_mesh_lod_bias"		"0.15"
 		"sc_instanced_mesh_lod_bias_shadow"		"1.0"
 		"r_texture_stream_mip_bias"				"1"
 		"r_draw3dskybox"						"0"
@@ -748,6 +748,37 @@
 		"r_threaded_particle_creation"			"1"
 		"cl_parallel_readpacketentities"		"1"
 		"sparseshadowtree_parallel_generation"	"1"
+		"cl_particle_fallback_base"				"10"
+		"cl_particle_fallback_multiplier"		"40"
+		"cl_particle_sim_fallback_base_multiplier"	"40"
+		"cl_particle_sim_fallback_threshold_ms"	"0.001"
+		"r_particle_max_detail_level"		"0"
+		"r_particle_skip_postsim"				"true"
+		"r_particle_allowprerender"				"false"
+		"cl_simulate_dormant_entities"			"false"
+		"citadel_use_pvs_for_players"			"true"
+		"engine_max_ticks_to_simulate"			"2"
+		"sc_screen_size_lod_scale_override"		"0.15"
+		"sc_allow_dithered_lod"					"0"
+		"lb_enable_dynamic_lights"				"0"
+		"sc_disable_spotlight_shadows"			"1"
+		"animgraph_footlock_enabled"			"0"
+		"animgraph_footlock_ik_enable"			"0"
+		"animgraph_footlock_trace_ground_enabled"	"0"
+		"animgraph_slope_enable"				"0"
+		"phys_cull_internal_mesh_contacts"		"true"
+		"r_hair_shadowtile"						"0"
+		"snd_occlusion_bounces"		"0"
+		"snd_occlusion_rays"		"0"
+		"citadel_boss_glow_disabled"		"1"
+		"citadel_trooper_glow_disabled"		"1"
+		"r_morphing_enabled"		"0"
+		"r_render_hair"		"0"
+		"sc_instanced_mesh_size_cull_bias"		"3"
+		"r_drawskybox"		"0"
+		"r_texture_stream_max_resolution"		"256"
+		"lb_enable_envmaps"		"0"
+		"r_shadows"		"0"
 	}
 
 	Memory
